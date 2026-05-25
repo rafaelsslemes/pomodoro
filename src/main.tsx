@@ -1,7 +1,6 @@
 import { render } from "preact";
 import { StrictMode } from "preact/compat";
-import "./index.css";
-import { App } from "./app.tsx";
+import { App } from "./App";
 
 render(
   <StrictMode>
