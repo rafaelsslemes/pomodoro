@@ -1,8 +1,9 @@
+import { Heading } from "./components/Heading";
+
 export function App() {
   return (
     <>
-      <h1> Hello World </h1>
-      <h2> Pomodoro Timer</h2>
+      <Heading />
     </>
   );
 }
