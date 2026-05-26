@@ -3,7 +3,7 @@ import { Heading } from "./components/Heading";
 export function App() {
   return (
     <>
-      <Heading />
+      <Heading text="Pomodoro Timer">Olá mundo</Heading>
     </>
   );
 }

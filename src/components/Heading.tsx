@@ -1,10 +1,10 @@
 import styles from "./Heading.module.css";
 
-export function Heading() {
+export function Heading(props: { children: string; text: string }) {
   return (
     <>
-      <h1 className={styles.heading}> Hello World </h1>
-      <h2> Pomodoro Timer</h2>
+      <h1 className={styles.heading}> {props.children} </h1>
+      <h2>{props.text}</h2>
     </>
   );
 }
