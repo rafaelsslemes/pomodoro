@@ -1,8 +1,8 @@
-import styles from "./Heading.module.css";
+import styles from "./styles.module.css";
 
 type HeadingProps = {
   children: React.ReactNode;
-  text: string;
+  // text: string;
 };
 
 export function Heading(props: HeadingProps) {
@@ -11,7 +11,7 @@ export function Heading(props: HeadingProps) {
   return (
     <>
       <h1 className={styles.heading}> {children} </h1>
-      <h2>{props.text}</h2> {/* using props.text without destructuring */}
+      {/* <h2>{props.text}</h2> using props.text without destructuring */}
     </>
   );
 }
